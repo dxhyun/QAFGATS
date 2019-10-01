@@ -29,10 +29,10 @@ class AppDynamicsJob(unittest.TestCase):
         driver.find_element_by_link_text("Sign In").click()
         driver.find_element_by_id("email-inp").click()
         driver.find_element_by_id("email-inp").clear()
-        driver.find_element_by_id("email-inp").send_keys("marcojeon@fashiongo.com")
+        driver.find_element_by_id("email-inp").send_keys("ma********@**********.***")
         driver.find_element_by_id("pwd_inp").click()
         driver.find_element_by_id("pwd_inp").clear()
-        driver.find_element_by_id("pwd_inp").send_keys("KR123")
+        driver.find_element_by_id("pwd_inp").send_keys("K****************")
         driver.find_element_by_name("loginRequestData").submit()
     
     def is_element_present(self, how, what):
